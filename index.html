@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Interactiva</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+    }
+    td:hover {
+      background-color: #e0f7fa;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Malla Curricular Interactiva</h1>
+  <table>
+    <tr>
+      <th>Semestre</th>
+      <th>Ramo 1</th>
+      <th>Ramo 2</th>
+      <th>Ramo 3</th>
+    </tr>
+    <tr>
+      <td>1°</td>
+      <td onclick="alert('Matemática Básica')">Matemática</td>
+      <td onclick="alert('Introducción a la Ingeniería')">Intro. Ingeniería</td>
+      <td onclick="alert('Taller de Comunicación')">Comunicación</td>
+    </tr>
+    <tr>
+      <td>2°</td>
+      <td onclick="alert('Álgebra Lineal')">Álgebra</td>
+      <td onclick="alert('Física I')">Física</td>
+      <td onclick="alert('Programación I')">Programación</td>
+    </tr>
+  </table>
+</body>
+</html>
